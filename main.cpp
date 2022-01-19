@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    setlocale(LC_ALL, "rus");
     string str, sep;
     getline(cin, str);
     cin >> sep;
