@@ -19,6 +19,7 @@ void itc_odd_even_analysis_lst(const vector <int> &lst);
 void print(vector<char> &vec);
 void enter_vector(vector<int> mass, int n);
 
-
+int itc_min_lst(const vector <int> &lst);
+int itc_max_lst(const vector <int> &lst);
 
 #endif // MIDDLE_LIST_H_INCLUDED
