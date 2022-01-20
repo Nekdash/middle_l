@@ -8,7 +8,7 @@ using namespace std;
 vector<char> itc_strtlist(string str);
 string itc_join(vector<char> lst, string sep);
 string itc_rmstrspc(string str);
-string itc_rmstrchar(string str, string less);
+string itc_rmstrchar(string str, string less1);
 long itc_sumlst(const vector <int> &lst);
 long itc_sum_even_lst(const vector <int> &lst);
 long itc_sum_even_part_lst(const vector <int> &lst);
@@ -24,5 +24,6 @@ int itc_max_lst(const vector <int> &lst);
 
 long long itc_len(string str);
 string itc_slice_str(string str, int start, int endd);
+bool itc_find_str(string str1, char ch);
 
 #endif // MIDDLE_LIST_H_INCLUDED

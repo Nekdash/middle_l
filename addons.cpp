@@ -33,6 +33,8 @@ string itc_slice_str(string str, int start, int endd) {
 }
 
 
+
+
 void print(vector<char> &vec){
     for(long long i =0; i < vec.size(); i++){
         cout << vec[i] << " ";
