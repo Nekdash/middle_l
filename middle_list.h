@@ -22,4 +22,7 @@ void enter_vector(vector<int> mass, int n);
 int itc_min_lst(const vector <int> &lst);
 int itc_max_lst(const vector <int> &lst);
 
+long long itc_len(string str);
+string itc_slice_str(string str, int start, int endd);
+
 #endif // MIDDLE_LIST_H_INCLUDED
